@@ -36,13 +36,14 @@
 						Aapka Jeevan , Hamari zimmedari
 					</span>
 
-					 <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username"> 
-						
+					 <!-- <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username"> --> 
+						<div>
 						<input class="input100" type="text" name="email" placeholder="E-mail">
 						<span class="focus-input100"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate = "Please enter password">
+					<!-- <div class="wrap-input100 validate-input" data-validate = "Please enter password"> -->
+						<div>
 						<input class="input100" type="password" name="pass" placeholder="Password">
 						<span class="focus-input100"></span>
 					</div>

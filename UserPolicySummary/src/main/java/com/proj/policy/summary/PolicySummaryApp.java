@@ -1,13 +1,12 @@
-package com.oracle.policymgmt.client;
+package com.proj.policy.summary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-
-public class PolicyMgmtApplication {
+public class PolicySummaryApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PolicyMgmtApplication.class, args);
+		SpringApplication.run(PolicySummaryApp.class, args);
 	}
 }

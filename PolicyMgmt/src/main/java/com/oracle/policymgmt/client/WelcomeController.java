@@ -1,5 +1,8 @@
 package com.oracle.policymgmt.client;
 
+import java.util.List;
+
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -12,6 +15,7 @@ import org.springframework.web.client.RestTemplate;
 
 import com.oracle.policymgmt.model.User;
 import com.oracle.policymgmt.model.UserDetails;
+import com.oracle.policymgmt.model.UserPolicy;
 
 @Controller
 public class WelcomeController {
@@ -30,10 +34,17 @@ public class WelcomeController {
 	@RequestMapping(value = "/welcome", method = RequestMethod.POST)
 	public String login(HttpServletRequest req, HttpServletResponse res, Model mod) {
 		RestTemplate restTemplate = new RestTemplate();
-		User user = new User(req.getParameter("email"), req.getParameter("pass"),"");
+		String userId=req.getParameter("email");
+		String password= req.getParameter("pass");
+		User user = new User(userId, password,"");
+		
 		Boolean valid = restTemplate.postForObject("http://localhost:9091/validateusercreds", user, Boolean.class);
 		if (valid) {
-			mod.addAttribute("useremail", req.getParameter("email"));
+			
+			mod.addAttribute("useremail", userId);
+				List<UserPolicy> userpolicy=restTemplate.getForObject("http://localhost:9092/userpolicy/"+userId, List.class);
+			mod.addAttribute("userpolicy",userpolicy);
+			
 			return "welcome";
 		} else {
 			mod.addAttribute("message","Invalid Username\\Password");

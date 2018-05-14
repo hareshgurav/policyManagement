@@ -1,0 +1,22 @@
+server:
+  port: 9093
+  
+spring:
+  jpa:
+    show-sql: true     
+  data:
+    mongodb:
+      port: 30832
+      host: whf00aoi
+      database: productmaster
+  application:
+    name: policydetails
+              
+#eureka:
+ # client:
+  #  registry-fetch-interval-seconds: 5
+   # service-url:
+    #  defaultZone: http://localhost:8765/eureka
+      
+          
+      

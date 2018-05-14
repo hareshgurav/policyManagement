@@ -2,7 +2,6 @@ package com.oracle.policymgmt.client;
 
 import java.util.List;
 
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -13,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.client.RestTemplate;
 
+import com.oracle.policymgmt.model.Products;
 import com.oracle.policymgmt.model.User;
 import com.oracle.policymgmt.model.UserDetails;
 import com.oracle.policymgmt.model.UserPolicy;
@@ -65,7 +65,15 @@ public class WelcomeController {
 	}
 	
 	
-	
+	@RequestMapping(value = "/getallproducts")
+	public String getProducts(Model model)
+	{	
+		RestTemplate restTemplate = new RestTemplate();	
+		List<Products> products = restTemplate.getForObject("http://localhost:9093/getAllProduct",List.class);
+		System.out.println(products);
+		model.addAttribute("products", products);
+		return "buypolicy";
+	}
 	
 	
 

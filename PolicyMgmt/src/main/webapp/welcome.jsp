@@ -63,7 +63,7 @@ overflow-x:hidden !important;
 
 </style>
 
-<title>Policy Management1</title>
+<title>Policy Management</title>
 </head>
 
 <body>
@@ -72,14 +72,14 @@ overflow-x:hidden !important;
 <div style='padding-left:12px;padding-top:0.5px;'><h1 style="font-family: 'PT Sans', sans-serif; color:white;"> Welcome to Policy Management</h1></div>
 <ul>
    <li class='active'><a href='#'><span>Policy Summary</span></a></li>
-   <li><a href='#'><span>Buy New Policy</span></a></li>
+   <li><a href='http://localhost:9090/getallproducts'><span>Buy New Policy</span></a></li>
    <li class='last'><a href='#'><span>Check Policy Status</span></a></li>
 </ul>
 </div>
 <br>
 <br>
 <div id='userData'> User policy details as follows:
-${userpolicy}
+
 </div>
 <br>
 <br><br>
@@ -88,15 +88,15 @@ ${userpolicy}
 <table id="userPolicyTable1"  class=".table table striped" >
 <thead style="background-color:#57b846";>
 <tr>
-<th>userId</th>
-<th>sumAssured</th>
-<th>premiumAmt</th>
-<th>productId</th>
-<th>maturityDate</th>
-<th>purchaseDate</th>
-<th>policyStatus</th>
-<th>user_Policy_Id</th>
-<th>premiumFrequency</th>
+<th>UserId</th>
+<th>Sum Assured</th>
+<th>Premium Amount</th>
+<th>Product Id</th>
+<th>Maturity Date</th>
+<th>Purchase Date</th>
+<th>Policy Status</th>
+<th>User Policy Id</th>
+<th>Premium Frequency</th>
 </tr>
 </thead>
 <tbody>

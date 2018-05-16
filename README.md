@@ -1,5 +1,6 @@
-# policyManagement
-Micro services Spring boot
+Policy Management MicroServices implementation.
+
+Please find below micro services details.
 
 1) ms-PolicyMgmt is UI MicroService.
 2) ms-UserManagement is Registration\Login MicroService.

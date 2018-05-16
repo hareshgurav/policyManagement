@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: policyMgmtUI
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /
+    
+eureka:
+  client:   
+    serviceUrl:
+        defaultZone: http://localhost:9190/eureka

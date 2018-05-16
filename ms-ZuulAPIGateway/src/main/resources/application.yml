@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: zuul-api-gateway
+    
+server:
+  port: 8093
+  
+zuul:
+  routes:
+    policyMgmtUI: 
+      path: /policyMgmt/**
+      serviceId: policyMgmtUI
+      
+eureka:
+  client:    
+    fetch-registry: true
+    register-with-eureka: true    
+    serviceUrl:
+        defaultZone: http://localhost:9190/eureka 
+    
+ribbon:
+  ReadTimeout: 100000000
+  ConnectTimeout: 10000000
+  eureka:
+    enabled: true

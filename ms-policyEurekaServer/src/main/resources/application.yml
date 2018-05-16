@@ -1,0 +1,13 @@
+server:  
+  port: 9190
+  
+spring:
+  application:
+    name: Policy eureka Server
+    
+eureka:
+  client:
+    fetch-registry: false 
+    register-with-eureka: false
+    serviceUrl:
+      defaultZone: http://localhost:9190/eureka

@@ -1,0 +1,20 @@
+server:
+  port: 9091
+  
+spring:
+  application:
+    name: UserManagement
+  data:
+    mongodb:
+      database: policyuserdb
+      host: localhost
+      port: 27017
+      
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+        defaultZone: http://localhost:9190/eureka
+
+  instance:
+    prefer-ip-address: false  

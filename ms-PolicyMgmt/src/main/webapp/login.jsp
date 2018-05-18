@@ -65,7 +65,7 @@
 							New Users
 						</span>
 
-						<a href="#" class="txt3">
+						<a href="http://localhost:8093/policyMgmt/register" class="txt3">
 							Register here now
 						</a>
 					</div>

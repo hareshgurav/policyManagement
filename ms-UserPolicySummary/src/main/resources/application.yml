@@ -1,17 +1,15 @@
 server:
-  port: 9093
+  port: 9092
   
 spring:
-  jpa:
-    show-sql: true     
+  application:
+    name: userPolicy
   data:
     mongodb:
-      port: 27017
+      database: policyuserdb
       host: localhost
-      database: productmaster
-  application:
-    name: policyDetails
-              
+      port: 27017
+
 eureka:
   client:
     registryFetchIntervalSeconds: 5

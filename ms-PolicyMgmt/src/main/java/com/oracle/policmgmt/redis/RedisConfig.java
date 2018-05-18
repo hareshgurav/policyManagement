@@ -1,10 +1,5 @@
-package com.oracle.policymgmt.client;
+package com.oracle.policmgmt.redis;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.client.RestTemplateBuilder;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -14,28 +9,14 @@ import org.springframework.data.redis.listener.ChannelTopic;
 import org.springframework.data.redis.listener.RedisMessageListenerContainer;
 import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 import org.springframework.data.redis.serializer.GenericToStringSerializer;
-import org.springframework.web.client.RestTemplate;
 
 import com.oracle.policmgmt.redis.MessagePublisher;
 import com.oracle.policmgmt.redis.MessagePublisherImpl;
 import com.oracle.policmgmt.redis.MessageSubscriber;
 
-@EnableEurekaClient
-@EnableDiscoveryClient
 @Configuration
-@ComponentScan("com.oracle")
-@SpringBootApplication
-public class PolicyMgmtApplication {
+public class RedisConfig {
 
-	public static void main(String[] args) {
-		SpringApplication.run(PolicyMgmtApplication.class, args);
-	}
-	
-	@Bean
-	public RestTemplate restTemplate(RestTemplateBuilder builder) {
-		return builder.build();		
-	}
-	
     @Bean
     JedisConnectionFactory jedisConnectionFactory() {
         return new JedisConnectionFactory();
@@ -71,5 +52,4 @@ public class PolicyMgmtApplication {
     ChannelTopic topic() {
         return new ChannelTopic("pubsub:queue");
     }
-	
 }

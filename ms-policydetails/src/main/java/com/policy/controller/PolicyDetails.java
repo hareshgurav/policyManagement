@@ -33,7 +33,7 @@ public class PolicyDetails {
 	/*PaymentServiceProxy paymentServiceProxy;*/
 	
 	
-	@RequestMapping(value="/getAllProduct")
+	@RequestMapping(value="/getallproduct")
 	public List<ProductMaster> listallProduct(){		
 		List<ProductMaster> productlist=productMasterRepo.findAll();
 		return productlist;		

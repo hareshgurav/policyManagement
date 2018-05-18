@@ -20,6 +20,9 @@ public class UserController {
     
     @Autowired
     UserDetailsRepository userdetrepo;
+    
+   
+    
 
 	@RequestMapping(value = "/validateusercreds", method = RequestMethod.POST)
 	public Boolean validateUserCreds(@RequestBody User user) {
@@ -43,6 +46,11 @@ public class UserController {
 	public String registerUser(@RequestBody UserDetails userDetails) {
 		try {
 			userdetrepo.save(userDetails);
+			User user= new User();
+			user.setUserid(userDetails.getUserId());
+			user.setPassword(userDetails.getPassword());
+			usermgmtrepo.save(user);
+			
 		}catch (Exception e) {
 			e.printStackTrace();
 			return "FAILURE";

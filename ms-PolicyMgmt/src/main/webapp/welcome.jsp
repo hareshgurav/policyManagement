@@ -73,13 +73,13 @@ overflow-x:hidden !important;
 <div style='padding-left:12px;padding-top:0.5px;'><h1 style="font-family: 'PT Sans', sans-serif; color:white;"> Welcome to Policy Management</h1></div>
 <ul>
    <li class='active'><a href='#'><span>Policy Summary</span></a></li>
-   <li><a href='http://localhost:9090/getallproducts'><span>Buy New Policy</span></a></li>
+   <li><a href='http://localhost:8093/policyMgmt/getallproducts'><span>Buy New Policy</span></a></li>
    <li class='last'><a href='#'><span>Check Policy Status</span></a></li>
 </ul>
 </div>
 <br>
 <br>
-<div id='userData'> User policy details as follows:
+<div id='userData'> Hello ${useremail}
 
 </div>
 <br>
@@ -89,7 +89,7 @@ overflow-x:hidden !important;
 <table id="userPolicyTable1"  class=".table table striped" >
 <thead style="background-color:#57b846";>
 <tr>
-<th>UserId</th>
+
 <th>Sum Assured</th>
 <th>Premium Amount</th>
 <th>Product Id</th>
@@ -105,7 +105,7 @@ overflow-x:hidden !important;
 
 <c:forEach items="${userpolicy}" var="val">
 	<tr>
-	<td><c:out value="${val.userId}"></c:out> </td>
+	<%-- <td><c:out value="${val.userId}"></c:out> </td> --%>
 	<td><c:out value="${val.sumAssured}"></c:out> </td>
 	<td><c:out value="${val.premiumAmt}"></c:out> </td>
 	<td><c:out value="${val.productId}"></c:out> </td> 

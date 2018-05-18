@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -64,5 +65,19 @@ public class PolicySummaryController {
 
 		return policies;
 	}
+	
+	@RequestMapping(value="/buynewpolicy")
+	public String  buyNewPolicy(@RequestBody UserPolicy userPolicy)
+	{
+		try {
+			userPolicyService.save(userPolicy);
+		}catch (Exception e) {
+			e.printStackTrace();
+			return "FAILURE";
+		}
+		return "SUCCESS";
+		
+	}
+	
 
 }

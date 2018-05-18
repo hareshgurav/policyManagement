@@ -20,6 +20,9 @@ zuul:
      path: /allpolicies/**
      #service-id: policyDetails
      url: http://localhost:9093/
+    PaymentService:
+     path: /payment/**
+     url: http://localhost:9098/
       
 eureka:
   instance:

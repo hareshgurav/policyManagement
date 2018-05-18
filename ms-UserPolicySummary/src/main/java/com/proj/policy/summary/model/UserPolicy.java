@@ -14,7 +14,7 @@ public class UserPolicy {
 	@Id
 	private String id;
 	@Field("user_Policy_Id")
-	private String User_Policy_Id;
+	private String userPolicyId;
 	@Field("userId")
 	private String userId;
 	@Field("productId")
@@ -41,11 +41,11 @@ public class UserPolicy {
 	}
 
 	public String getUser_Policy_Id() {
-		return User_Policy_Id;
+		return userPolicyId;
 	}
 
-	public void setUser_Policy_Id(String user_Policy_Id) {
-		User_Policy_Id = user_Policy_Id;
+	public void setUser_Policy_Id(String userPolicyId) {
+		userPolicyId = userPolicyId;
 	}
 
 	public String getUserId() {

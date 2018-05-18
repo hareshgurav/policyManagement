@@ -1,0 +1,11 @@
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:9097
+  application: 
+    name: UserManagement
+      
+server:
+  port: 9091
+  

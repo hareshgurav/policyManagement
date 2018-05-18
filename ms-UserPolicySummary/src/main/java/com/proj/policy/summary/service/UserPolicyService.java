@@ -11,5 +11,7 @@ public interface UserPolicyService extends MongoRepository<UserPolicy, Integer> 
 	public List<UserPolicy> findAll();
 
 	public List<UserPolicy> findByUserId(String userId);
+	
+	public UserPolicy findByUserPolicyId(String userpolicyId);
 
 }

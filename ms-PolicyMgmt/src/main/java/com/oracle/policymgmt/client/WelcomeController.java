@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.client.RestTemplate;
 
 import com.oracle.policmgmt.redis.RedisRepository;
+import com.oracle.policymgmt.model.Payment;
 import com.oracle.policymgmt.model.Products;
 import com.oracle.policymgmt.model.User;
 import com.oracle.policymgmt.model.UserDetails;
@@ -112,7 +113,8 @@ public class WelcomeController {
 		String userId = (String) user.get("sessionUser");
 		UserPolicy userPolicy = new UserPolicy();
 		userPolicy.setUserId(userId);
-		userPolicy.setUser_Policy_Id("UP00" + policy_id);
+		//userPolicy.setUser_Policy_Id("UP00" + policy_id);
+		userPolicy.setUser_Policy_Id("UP0099");
 		userPolicy.setProductId(req.getParameter("policylist"));
 		userPolicy.setSumAssured(req.getParameter("sumAssured"));
 		userPolicy.setMaturityDate(req.getParameter("maturityDate"));
@@ -121,7 +123,7 @@ public class WelcomeController {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		userPolicy.setPurchaseDate(sdf.format(new Date()));
 		userPolicy.setPolicyStatus("Draft");
-
+        System.out.println(" Welcome controller *******");
 		String returnStatus = restTemplate.postForObject("http://localhost:9092/buynewpolicy", userPolicy,
 				String.class);
 		policy_id++;
@@ -139,5 +141,26 @@ public class WelcomeController {
 		return "welcome";
 
 	}
+	
+	@RequestMapping(value = "/payPolicy", method = RequestMethod.POST)
+	public String payPolicy(HttpServletRequest req, HttpServletResponse res) {
+		
+		Payment payment= new Payment();
+		//payment.setUserpolicyid(req.getParameter("userpolicyid"));
+		payment.setUserpolicyid("UP00999999");
+		payment.setUserid(req.getParameter("userid"));
+		payment.setAccountno(req.getParameter("accountno"));
+		payment.setAmount(req.getParameter("amount"));
+		payment.setBankname(req.getParameter("bankname"));
+		 System.out.println(" Welcome controller ******* Pypolicy *************");
+		
+		String status= restTemplate.postForObject("http://localhost:8093/payment/paypolicy", payment, String.class);
+		
+		return "paymentSuccess";
+		
+	}
+
+	
+	
 
 }

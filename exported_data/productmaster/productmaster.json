@@ -1,0 +1,42 @@
+{ 
+    "_id" : ObjectId("5af96de7ae57fc48b89d305b"), 
+    "productid" : NumberInt(1), 
+    "productname" : "LIC Health policy", 
+    "productterm" : NumberInt(240), 
+    "producttype" : " Health Policy"
+}
+{ 
+    "_id" : ObjectId("5af96de7ae57fc48b89d305c"), 
+    "productid" : NumberInt(2), 
+    "productname" : "Jeevan Anand", 
+    "productterm" : NumberInt(300), 
+    "producttype" : " Health Policy"
+}
+{ 
+    "_id" : ObjectId("5af96de7ae57fc48b89d305d"), 
+    "productid" : NumberInt(3), 
+    "productname" : "HDFC Ergo", 
+    "productterm" : NumberInt(300), 
+    "producttype" : " Travel Insurance"
+}
+{ 
+    "_id" : ObjectId("5af96de7ae57fc48b89d305e"), 
+    "productid" : NumberInt(4), 
+    "productname" : "Reliance Life Insurance", 
+    "productterm" : NumberInt(300), 
+    "producttype" : "Health Policy"
+}
+{ 
+    "_id" : ObjectId("5af96de7ae57fc48b89d305f"), 
+    "productid" : NumberInt(5), 
+    "productname" : "Bharti AXA Life", 
+    "productterm" : NumberInt(300), 
+    "producttype" : " Health Policy"
+}
+{ 
+    "_id" : ObjectId("5af96de7ae57fc48b89d3060"), 
+    "productid" : NumberInt(6), 
+    "productname" : "ICICI Lombard", 
+    "productterm" : NumberInt(36), 
+    "producttype" : " Car Insurance"
+}

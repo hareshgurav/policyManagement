@@ -1,0 +1,84 @@
+{ 
+    "_id" : ObjectId("5af41320c0a28100e58d95e2"), 
+    "userid" : "nvasdev", 
+    "password" : "nvasdev", 
+    "tokenid" : ""
+}
+{ 
+    "_id" : ObjectId("5af41340c0a28100e58d95e3"), 
+    "userid" : "bharpate", 
+    "password" : "bharatpate", 
+    "tokenid" : ""
+}
+{ 
+    "_id" : ObjectId("5af41354c0a28100e58d95e4"), 
+    "userid" : "hgurav", 
+    "password" : "hgurav", 
+    "tokenid" : ""
+}
+{ 
+    "_id" : ObjectId("5afd823826520b389cbce85e"), 
+    "_class" : "com.oracle.usermgmt.model.User", 
+    "userid" : "sjha", 
+    "password" : "sjha"
+}
+{ 
+    "_id" : ObjectId("5afd84f626520b389cbce860"), 
+    "_class" : "com.oracle.usermgmt.model.User", 
+    "userid" : "", 
+    "password" : ""
+}
+{ 
+    "_id" : ObjectId("5afd86fd26520b389cbce862"), 
+    "_class" : "com.oracle.usermgmt.model.User", 
+    "userid" : "adubey", 
+    "password" : "adubey"
+}
+{ 
+    "_id" : ObjectId("5afd870626520b389cbce864"), 
+    "_class" : "com.oracle.usermgmt.model.User"
+}
+{ 
+    "_id" : ObjectId("5afd870926520b389cbce866"), 
+    "_class" : "com.oracle.usermgmt.model.User"
+}
+{ 
+    "_id" : ObjectId("5afd87d326520b389cbce868"), 
+    "_class" : "com.oracle.usermgmt.model.User", 
+    "userid" : "", 
+    "password" : ""
+}
+{ 
+    "_id" : ObjectId("5afd87e126520b389cbce86a"), 
+    "_class" : "com.oracle.usermgmt.model.User"
+}
+{ 
+    "_id" : ObjectId("5afeb48a26520b0a7c06a359"), 
+    "_class" : "com.oracle.usermgmt.model.User", 
+    "userid" : "shaan", 
+    "password" : "shaan"
+}
+{ 
+    "_id" : ObjectId("5afeb48c26520b0a7c06a35b"), 
+    "_class" : "com.oracle.usermgmt.model.User"
+}
+{ 
+    "_id" : ObjectId("5afeb48e26520b0a7c06a35d"), 
+    "_class" : "com.oracle.usermgmt.model.User"
+}
+{ 
+    "_id" : ObjectId("5afeb49026520b0a7c06a35f"), 
+    "_class" : "com.oracle.usermgmt.model.User"
+}
+{ 
+    "_id" : ObjectId("5afeb49126520b0a7c06a361"), 
+    "_class" : "com.oracle.usermgmt.model.User"
+}
+{ 
+    "_id" : ObjectId("5afeb49426520b0a7c06a363"), 
+    "_class" : "com.oracle.usermgmt.model.User"
+}
+{ 
+    "_id" : ObjectId("5afeb49626520b0a7c06a365"), 
+    "_class" : "com.oracle.usermgmt.model.User"
+}

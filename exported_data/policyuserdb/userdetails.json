@@ -1,0 +1,338 @@
+{ 
+    "_id" : ObjectId("5af3f3c1ad4ecf30acb49696"), 
+    "userid" : "nvasdev", 
+    "name" : "Natasha Vasdev", 
+    "mobile" : "1234567890", 
+    "address" : "420, Patali Gali", 
+    "dob" : "01-FEB-90", 
+    "emailid" : "natasha.vasdev@oracle.com", 
+    "smoker" : "N", 
+    "drinker" : "N", 
+    "maritialstatus" : "SINGLE"
+}
+{ 
+    "_id" : ObjectId("5af3f3c1ad4ecf30acb49697"), 
+    "userid" : "bharpate", 
+    "name" : "Bharat Patel", 
+    "mobile" : "1234567890", 
+    "address" : "420, Patali Gali", 
+    "dob" : "01-FEB-85", 
+    "emailid" : "bharatkumar.patel@oracle.com", 
+    "smoker" : "N", 
+    "drinker" : "N", 
+    "maritialstatus" : "SINGLE"
+}
+{ 
+    "_id" : ObjectId("5af3f3c1ad4ecf30acb49698"), 
+    "userid" : "hgurav", 
+    "name" : "Haresh Gurav", 
+    "mobile" : "1234567890", 
+    "address" : "420, Patali Gali", 
+    "dob" : "01-FEB-80", 
+    "emailid" : "haresh.gurav@oracle.com", 
+    "smoker" : "Y", 
+    "drinker" : "Y", 
+    "maritialstatus" : "MARRIED"
+}
+{ 
+    "_id" : ObjectId("5af4530b8b273b44100dc10c"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "vtiskadam", 
+    "name" : "vishal kadam", 
+    "mobile" : "9922440660", 
+    "address" : "bhandup", 
+    "dob" : "01/10/1988", 
+    "emailid" : "vishal.kadam@oracle.com", 
+    "smoker" : "No", 
+    "drinker" : "No", 
+    "password" : "12345678", 
+    "maritialstatus" : "MARRIED"
+}
+{ 
+    "_id" : ObjectId("5af53da67fb9db4b144ca035"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "ptalwar", 
+    "name" : "Poonam", 
+    "mobile" : "9999999999", 
+    "address" : "Ghatkopar", 
+    "dob" : "21/12/1989", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "No", 
+    "drinker" : "No", 
+    "password" : "ptalwar", 
+    "maritialstatus" : "No"
+}
+{ 
+    "_id" : ObjectId("5afc22908b273b4edcdb9da0"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "p618244", 
+    "name" : "Poonam Talwar", 
+    "mobile" : "8888888888", 
+    "address" : "Ghatkopar", 
+    "dob" : "21/12/1989", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "no", 
+    "drinker" : "no", 
+    "password" : "poonam", 
+    "maritialstatus" : "Single"
+}
+{ 
+    "_id" : ObjectId("5afc2eb98b273b065839c0f2"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "p618243", 
+    "name" : "Poonam Talwar", 
+    "mobile" : "8888888888888888", 
+    "address" : "Mumbai", 
+    "dob" : "21/12/2019", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "no", 
+    "drinker" : "n", 
+    "password" : "password", 
+    "maritialstatus" : "s"
+}
+{ 
+    "_id" : ObjectId("5afc32768b273b4c68b1f2c3"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "p618242", 
+    "name" : "Poonam Talwar", 
+    "mobile" : "888888888888888", 
+    "address" : "Mumbai", 
+    "dob" : "21/12/1989", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "no", 
+    "drinker" : "n", 
+    "password" : "password", 
+    "maritialstatus" : "s"
+}
+{ 
+    "_id" : ObjectId("5afc35e18b273b4bdc6e2771"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "poonam", 
+    "name" : "poonam", 
+    "mobile" : "11111111111", 
+    "address" : "ssssssss", 
+    "dob" : "21/21/21", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "n", 
+    "drinker" : "n", 
+    "password" : "password", 
+    "maritialstatus" : "n"
+}
+{ 
+    "_id" : ObjectId("5afc35da8b273b4bdc6e2770"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "poonam", 
+    "name" : "poonam", 
+    "mobile" : "11111111111", 
+    "address" : "ssssssss", 
+    "dob" : "21/21/21", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "n", 
+    "drinker" : "n", 
+    "password" : "password", 
+    "maritialstatus" : "n"
+}
+{ 
+    "_id" : ObjectId("5afc35e28b273b4bdc6e2772"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "poonam", 
+    "name" : "poonam", 
+    "mobile" : "11111111111", 
+    "address" : "ssssssss", 
+    "dob" : "21/21/21", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "n", 
+    "drinker" : "n", 
+    "password" : "password", 
+    "maritialstatus" : "n"
+}
+{ 
+    "_id" : ObjectId("5afc35e28b273b4bdc6e2773"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "poonam", 
+    "name" : "poonam", 
+    "mobile" : "11111111111", 
+    "address" : "ssssssss", 
+    "dob" : "21/21/21", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "n", 
+    "drinker" : "n", 
+    "password" : "password", 
+    "maritialstatus" : "n"
+}
+{ 
+    "_id" : ObjectId("5afc35f28b273b4bdc6e2774"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "poonam", 
+    "name" : "poonam", 
+    "mobile" : "11111111111", 
+    "address" : "ssssssss", 
+    "dob" : "21/21/21", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "n", 
+    "drinker" : "n", 
+    "password" : "password", 
+    "maritialstatus" : "n"
+}
+{ 
+    "_id" : ObjectId("5afc386c8b273b4bdc6e2775"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "131", 
+    "name" : "poonam", 
+    "mobile" : "111111111", 
+    "address" : "ssssssss", 
+    "dob" : "21/21/21", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "n", 
+    "drinker" : "n", 
+    "password" : "password", 
+    "maritialstatus" : "n"
+}
+{ 
+    "_id" : ObjectId("5afc3e868b273b02c89171bf"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "3223123", 
+    "name" : "Poonam Talwar", 
+    "mobile" : "8888888888", 
+    "address" : "Ghatkopar", 
+    "dob" : "21/12/1989", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "no", 
+    "drinker" : "n", 
+    "password" : "password", 
+    "maritialstatus" : "n"
+}
+{ 
+    "_id" : ObjectId("5afc41b38b273b3158b86bd0"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "3223124", 
+    "name" : "Poonam Talwar", 
+    "mobile" : "8888888888", 
+    "address" : "Ghatkopar", 
+    "dob" : "21/12/2019", 
+    "emailid" : "poonam.talwar@oracle.com", 
+    "smoker" : "no", 
+    "drinker" : "n", 
+    "password" : "password", 
+    "maritialstatus" : "s"
+}
+{ 
+    "_id" : ObjectId("5afd6c4426520b4710589bca"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "", 
+    "name" : "", 
+    "mobile" : "", 
+    "address" : "", 
+    "dob" : "", 
+    "emailid" : "", 
+    "smoker" : "", 
+    "drinker" : "", 
+    "password" : "", 
+    "maritialstatus" : ""
+}
+{ 
+    "_id" : ObjectId("5afd823826520b389cbce85d"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "sjha", 
+    "name" : "Sneh Jha", 
+    "mobile" : "9009009001", 
+    "address" : "State Street", 
+    "dob" : "11 Dec 1984", 
+    "emailid" : "sneh.jha@oracle.com", 
+    "smoker" : "No", 
+    "drinker" : "No", 
+    "password" : "sjha", 
+    "maritialstatus" : "Yes"
+}
+{ 
+    "_id" : ObjectId("5afd84f626520b389cbce85f"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "", 
+    "name" : "", 
+    "mobile" : "", 
+    "address" : "", 
+    "dob" : "", 
+    "emailid" : "", 
+    "smoker" : "", 
+    "drinker" : "", 
+    "password" : "", 
+    "maritialstatus" : ""
+}
+{ 
+    "_id" : ObjectId("5afd86fd26520b389cbce861"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "adubey", 
+    "name" : "Aadesh Dubey", 
+    "mobile" : "8693939393", 
+    "address" : "Bhivandi", 
+    "dob" : "05-Aug-1989", 
+    "emailid" : "aadesh.dubey@oracle.com", 
+    "smoker" : "No", 
+    "drinker" : "No", 
+    "password" : "adubey", 
+    "maritialstatus" : "Married"
+}
+{ 
+    "_id" : ObjectId("5afd870626520b389cbce863"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails"
+}
+{ 
+    "_id" : ObjectId("5afd870926520b389cbce865"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails"
+}
+{ 
+    "_id" : ObjectId("5afd87d326520b389cbce867"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "", 
+    "name" : "", 
+    "mobile" : "", 
+    "address" : "", 
+    "dob" : "", 
+    "emailid" : "", 
+    "smoker" : "", 
+    "drinker" : "", 
+    "password" : "", 
+    "maritialstatus" : ""
+}
+{ 
+    "_id" : ObjectId("5afd87e126520b389cbce869"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails"
+}
+{ 
+    "_id" : ObjectId("5afeb48a26520b0a7c06a358"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails", 
+    "userid" : "shaan", 
+    "name" : "Shaan", 
+    "mobile" : "12345678", 
+    "address" : "oracle", 
+    "dob" : "1955", 
+    "emailid" : "abc@abc.com", 
+    "smoker" : "no", 
+    "drinker" : "no", 
+    "password" : "shaan", 
+    "maritialstatus" : "Married"
+}
+{ 
+    "_id" : ObjectId("5afeb48c26520b0a7c06a35a"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails"
+}
+{ 
+    "_id" : ObjectId("5afeb48e26520b0a7c06a35c"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails"
+}
+{ 
+    "_id" : ObjectId("5afeb49026520b0a7c06a35e"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails"
+}
+{ 
+    "_id" : ObjectId("5afeb49126520b0a7c06a360"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails"
+}
+{ 
+    "_id" : ObjectId("5afeb49426520b0a7c06a362"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails"
+}
+{ 
+    "_id" : ObjectId("5afeb49626520b0a7c06a364"), 
+    "_class" : "com.oracle.usermgmt.model.UserDetails"
+}

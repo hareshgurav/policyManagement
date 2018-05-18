@@ -1,0 +1,24 @@
+{ 
+    "_id" : ObjectId("5af56dfc26d6b4326e170144"), 
+    "userId" : "nvasdev", 
+    "premiumFrequency" : "Yearly", 
+    "user_Policy_Id" : "up001", 
+    "sumAssured" : 100000.0, 
+    "maturityDate" : "2018-05-09T06:25:51.775+0000", 
+    "premiumAmt" : 10000.0, 
+    "purchaseDate" : "2018-05-09T06:25:51.775+0000", 
+    "productId" : "p001", 
+    "policyStatus" : "Active"
+}
+{ 
+    "_id" : ObjectId("5af56e2326d6b4326e170145"), 
+    "userId" : "nvasdev", 
+    "premiumFrequency" : "Yearly", 
+    "user_Policy_Id" : "up001", 
+    "sumAssured" : 100000.0, 
+    "maturityDate" : "2018-05-09T06:25:51.775+0000", 
+    "premiumAmt" : 10000.0, 
+    "purchaseDate" : "2018-05-09T06:25:51.775+0000", 
+    "productId" : "p001", 
+    "policyStatus" : "Active"
+}

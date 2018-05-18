@@ -1,0 +1,164 @@
+{ 
+    "_id" : ObjectId("5afc01465ce6fbae28860326"), 
+    "transid" : 1234.0, 
+    "userid" : 1.0, 
+    "userpolicyid" : "master_1", 
+    "accountno" : 1234455.0, 
+    "amt" : 23344.0, 
+    "bankname" : "BOB", 
+    "paymentstatus" : "SUCCESS"
+}
+{ 
+    "_id" : ObjectId("5afc01915ce6fbae28860327"), 
+    "transid" : 121234.0, 
+    "userid" : 12.0, 
+    "userpolicyid" : "up001", 
+    "accountno" : 1234455.0, 
+    "amt" : 23344.0, 
+    "bankname" : "BOB", 
+    "paymentstatus" : "SUCCESS"
+}
+{ 
+    "_id" : ObjectId("5afeec0e26520b41802950ce"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8203639272", 
+    "userpolicyid" : "UP0098", 
+    "accountno" : NumberInt(987654312), 
+    "amount" : NumberInt(5666), 
+    "bankname" : "78"
+}
+{ 
+    "_id" : ObjectId("5afeec3226520b41802950cf"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8203730113", 
+    "userpolicyid" : "UP0098", 
+    "accountno" : NumberInt(123456), 
+    "amount" : NumberInt(123), 
+    "bankname" : "HDFC"
+}
+{ 
+    "_id" : ObjectId("5afeed2126520b41802950d0"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8204120909", 
+    "userpolicyid" : "UP0099", 
+    "accountno" : NumberInt(98765432), 
+    "amount" : NumberInt(12345), 
+    "bankname" : "65"
+}
+{ 
+    "_id" : ObjectId("5afef0bb26520b3944967149"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8205651709", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef0f826520b394496714a"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8205752085", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef1e226520b394496714b"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8210146844", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef22626520b394496714c"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8210254552", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef25f26520b394496714d"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8210351206", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef26726520b394496714e"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8210359402", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef2f726520b394496714f"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8210623888", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef3fb26520b3944967150"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8211043942", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef40f26520b3944967151"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8211103488", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef60426520b3944967152"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8211924215", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef72226520b3944967153"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8212410293", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef87026520b3f989126a6"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8212944921", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}
+{ 
+    "_id" : ObjectId("5afef8a526520b3f989126a7"), 
+    "_class" : "com.policyPayment.model.Payment", 
+    "transid" : "8213037151", 
+    "userpolicyid" : "UP00999999", 
+    "accountno" : NumberInt(45666), 
+    "amount" : NumberInt(55555), 
+    "bankname" : "4444"
+}

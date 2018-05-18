@@ -1,0 +1,104 @@
+{ 
+    "_id" : ObjectId("5afd765926520b1b04b0996e"), 
+    "_class" : "com.proj.policy.summary.model.UserPolicy", 
+    "user_Policy_Id" : "UP0012", 
+    "userId" : "nvasdev", 
+    "productId" : "3", 
+    "sumAssured" : "36000", 
+    "maturityDate" : "17/05/2019", 
+    "premiumFrequency" : "Yearly", 
+    "premiumAmt" : "89", 
+    "purchaseDate" : "17/05/2018", 
+    "policyStatus" : "Draft"
+}
+{ 
+    "_id" : ObjectId("5afd767726520b1b04b0996f"), 
+    "_class" : "com.proj.policy.summary.model.UserPolicy", 
+    "user_Policy_Id" : "UP0013", 
+    "userId" : "nvasdev", 
+    "productId" : "5", 
+    "sumAssured" : "220000", 
+    "maturityDate" : "17/07/2027", 
+    "premiumFrequency" : "Yearly", 
+    "premiumAmt" : "90", 
+    "purchaseDate" : "17/05/2018", 
+    "policyStatus" : "Draft"
+}
+{ 
+    "_id" : ObjectId("5afd7ff326520b1b04b09970"), 
+    "_class" : "com.proj.policy.summary.model.UserPolicy", 
+    "user_Policy_Id" : "UP0012", 
+    "userId" : "nvasdev", 
+    "productId" : "4", 
+    "sumAssured" : "111000", 
+    "maturityDate" : "17/08/2027", 
+    "premiumFrequency" : "Yearly", 
+    "premiumAmt" : "1000000000", 
+    "purchaseDate" : "17/05/2018", 
+    "policyStatus" : "Draft"
+}
+{ 
+    "_id" : ObjectId("5afd825e26520b1b04b09971"), 
+    "_class" : "com.proj.policy.summary.model.UserPolicy", 
+    "user_Policy_Id" : "UP0013", 
+    "userId" : "nvasdev", 
+    "productId" : "6", 
+    "sumAssured" : "270000", 
+    "maturityDate" : "17/11/2025", 
+    "premiumFrequency" : "Yearly", 
+    "premiumAmt" : "567", 
+    "purchaseDate" : "17/05/2018", 
+    "policyStatus" : "Draft"
+}
+{ 
+    "_id" : ObjectId("5afda2c526520b3948e3701c"), 
+    "_class" : "com.proj.policy.summary.model.UserPolicy", 
+    "user_Policy_Id" : "UP0012", 
+    "userId" : "nvasdev", 
+    "productId" : "3", 
+    "sumAssured" : "36000", 
+    "maturityDate" : "17/05/2019", 
+    "premiumFrequency" : "Yearly", 
+    "premiumAmt" : "100000", 
+    "purchaseDate" : "17/05/2018", 
+    "policyStatus" : "Draft"
+}
+{ 
+    "_id" : ObjectId("5afda30426520b3948e3701d"), 
+    "_class" : "com.proj.policy.summary.model.UserPolicy", 
+    "user_Policy_Id" : "UP0013", 
+    "userId" : "nvasdev", 
+    "productId" : "2", 
+    "sumAssured" : "48000", 
+    "maturityDate" : "17/05/2020", 
+    "premiumFrequency" : "Yearly", 
+    "premiumAmt" : "1000000", 
+    "purchaseDate" : "17/05/2018", 
+    "policyStatus" : "Draft"
+}
+{ 
+    "_id" : ObjectId("5afda47926520b3948e3701e"), 
+    "_class" : "com.proj.policy.summary.model.UserPolicy", 
+    "user_Policy_Id" : "UP0012", 
+    "userId" : "sjha", 
+    "productId" : "2", 
+    "sumAssured" : "32000", 
+    "maturityDate" : "17/09/2019", 
+    "premiumFrequency" : "Yearly", 
+    "premiumAmt" : "50000", 
+    "purchaseDate" : "17/05/2018", 
+    "policyStatus" : "Draft"
+}
+{ 
+    "_id" : ObjectId("5afda4d426520b3948e3701f"), 
+    "_class" : "com.proj.policy.summary.model.UserPolicy", 
+    "user_Policy_Id" : "UP0013", 
+    "userId" : "sjha", 
+    "productId" : "3", 
+    "sumAssured" : "402000", 
+    "maturityDate" : "17/07/2029", 
+    "premiumFrequency" : "Yearly", 
+    "premiumAmt" : "677", 
+    "purchaseDate" : "17/05/2018", 
+    "policyStatus" : "Draft"
+}

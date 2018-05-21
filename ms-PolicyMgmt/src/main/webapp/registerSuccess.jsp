@@ -44,49 +44,28 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 
-				<form:form id="regForm" modelAttribute="userDetails"
-					action="registerUser" method="post"
-					class="login100-form validate-form p-l-55 p-r-55 p-t-178">
+				<span class="login100-form-title" style="font-size: 19px;">
+					Welcome To Policy Management<br />
+				</span>
 
-					<span class="login100-form-title" style="font-size: 19px;">
-						Welcome To Policy Management<br /> 
-					</span>
+				<c:if test="${message!= null}">
+					<br>
 
-										
-					<div class="container-login100-form-btn">
-						<input class="login100-form-btn" type="text"
-							value="Registeration Successful" />
+					<span> ${message} </span>
+				</c:if>
 
-						<c:if test="${message!= null}">
-							<br>
 
-							<span class="validate-input"> ${message} </span>
-						</c:if>
-						
-						
-						
 
-					</div>
 
-					 
+				<div class="container-login100-form-btn">
+					<a href="http://localhost:8093/policyMgmt/login" class="txt3">Click
+						to Login </a>
 
-						
-						 <div class="container-login100-form-btn">
-						<input class="login100-form-btn" type="submit"  value ="Click Here To Login"/>
-							
-							<c:if test="${message!= null}">
-							<br>
-							
-							<span class="validate-input"> ${message}
-							</span>
-							</c:if>
-						
-					</div>
-					</div> 
-				</form:form>
+				</div>
 			</div>
 		</div>
 	</div>
+	
 
 
 

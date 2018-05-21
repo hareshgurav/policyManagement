@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.client.RestTemplate;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.ribbon.proxy.annotation.Hystrix;
 import com.oracle.policmgmt.redis.RedisRepository;
 import com.oracle.policymgmt.model.Payment;
@@ -48,6 +49,7 @@ public class WelcomeController {
 	}
 
 	@RequestMapping(value = "/welcome", method = RequestMethod.POST)
+	@HystrixCommand(fallbackMethod="callerrorPage")
 	public String login(HttpServletRequest req, HttpServletResponse res, Model mod) {
 		
 		System.out.println("<<<< In welcome controller:: login method >>>>");
@@ -134,8 +136,9 @@ public class WelcomeController {
 	}
 
 	@RequestMapping(value = "/userpolicy/{userId}")
-	@HystrixCommand(fallbackMethod="catchError")
-	public String getUserPolicy(@PathVariable("userId") String userId, Model mod) {
+	@HystrixCommand(fallbackMethod="callerrorPage")
+	public String getUserPolicy(@PathVariable("userId") String userId, Model mod)
+	{
 		List<UserPolicy> userpolicy = restTemplate.getForObject("http://localhost:9092/userpolicy/" + userId,
 				List.class);
 		mod.addAttribute("userpolicy", userpolicy);
@@ -160,6 +163,11 @@ public class WelcomeController {
 		
 		return "paymentSuccess";
 		
+	}
+	
+	
+	public String callerrorPage(HttpServletRequest req, HttpServletResponse res, Model mod) {
+		return "error";
 	}
 
 	

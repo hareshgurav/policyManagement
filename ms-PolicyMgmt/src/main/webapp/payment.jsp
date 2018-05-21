@@ -51,13 +51,14 @@
 		<ul>
 			<li><a href='http://localhost:8093/policyMgmt/showuserpolicies'><span>Policy Summary</span></a></li>
 			<li class='active'><a href='#'><span>Buy New Policy</span></a></li>
-			<li class='last'><a href='#'><span>Check Policy
-						Status</span></a></li>
+			
 		</ul>
 	</div>
 	<br>
 	<br>
 	<div id='userData' style="padding-left: 20px;">
+		
+		Please enter payment Details :
 
 		<form class="form-horizontal" method="post" action="payPolicy" method="POST">
 			<fieldset>

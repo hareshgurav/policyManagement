@@ -74,7 +74,6 @@ overflow-x:hidden !important;
 <ul>
    <li class='active'><a href='#'><span>Policy Summary</span></a></li>
    <li><a href='http://localhost:8093/policyMgmt/getallproducts'><span>Buy New Policy</span></a></li>
-   <li class='last'><a href='#'><span>Check Policy Status</span></a></li>
 </ul>
 </div>
 <br>

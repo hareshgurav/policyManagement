@@ -1,0 +1,12 @@
+spring:
+   application:
+     name : turbineserver
+turbine:
+   clusterNameExpression: new String('default')
+   appConfig : policyDetails,PaymentService,zuul-api-gateway,policyMgmtUI,userPolicy,UserManagement
+server:
+  port: 9099
+eureka:
+  client:
+    serviceUrl:
+       defaultZone: http://localhost:9190/eureka/

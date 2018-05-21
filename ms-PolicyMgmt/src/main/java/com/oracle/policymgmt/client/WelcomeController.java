@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.client.RestTemplate;
 
+import com.netflix.ribbon.proxy.annotation.Hystrix;
 import com.oracle.policmgmt.redis.RedisRepository;
 import com.oracle.policymgmt.model.Payment;
 import com.oracle.policymgmt.model.Products;
@@ -133,6 +134,7 @@ public class WelcomeController {
 	}
 
 	@RequestMapping(value = "/userpolicy/{userId}")
+	@HystrixCommand(fallbackMethod="catchError")
 	public String getUserPolicy(@PathVariable("userId") String userId, Model mod) {
 		List<UserPolicy> userpolicy = restTemplate.getForObject("http://localhost:9092/userpolicy/" + userId,
 				List.class);

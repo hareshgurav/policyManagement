@@ -84,6 +84,7 @@ public class PolicySummaryController {
 		
 	}
 	
+	
 	@RabbitListener(queues="${policy.rabbitmq.queue}")
     public void recievedMessage(final Message  msg) {
         System.out.println("Recieved Message: " +msg);
